@@ -1,41 +1,14 @@
-<!-- <?php
-    require 'db/data.php';
-    require 'db/visits.php';
-?> -->
-
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
 
 <head>
 
     <meta charset="utf-8">
-
     <title></title>
-
     <meta name="description" content="">
     <meta name="keywords" content="">
-
-    <meta property="og:description" content="" />
-
-    <meta property="og:image" content="" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
-
-    <meta property="og:site_name" content="CompanyName"/>
-    <meta property="og:title" content="" />
-    <meta property="og:url" content=""/>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico">
-    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- RESET -->
     <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}html,body{margin:0;width:100%}.container{max-width:1200px;margin:0 auto}a,button,img,input{-webkit-transition:all .5s;transition:all .5s}button,button:active,button:focus,input,input:active,input:focus,textarea,textarea:active,textarea:focus{outline:none}button,button:hover,a,a:hover{text-decoration:none;cursor:pointer}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:before,.clearfix:after,.container:before,.container:after{content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.clearfix:after,.container:after{clear:both}.left{float:left}.right{float:right}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.flex{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}a,button,input,textarea{text-decoration:none;outline:0;border:0;-webkit-transition:color .4s ease,background-color .4s ease,background-image .4s ease,border-color .4s ease;transition:color .4s ease,background-color .4s ease,background-image .4s ease,border-color .4s ease}a:focus,button:focus,input:focus,textarea:focus{outline:0}input,textarea{-webkit-box-sizing:border-box;box-sizing:border-box}textarea{resize:none}button:hover,a:hover{cursor:pointer}</style>
@@ -46,20 +19,10 @@
     <!-- FONTS+HEADER -->
     <style></style>
 
-    <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
-    <script>!function(a){"use strict";function b(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function c(b,c){return a.localStorage&&localStorage[b+"_content"]&&localStorage[b+"_file"]===c}function d(b,d){if(a.localStorage&&a.XMLHttpRequest)c(b,d)?f(localStorage[b+"_content"]):e(b,d);else{var h=g.createElement("link");h.href=d,h.id=b,h.rel="stylesheet",h.type="text/css",g.getElementsByTagName("head")[0].appendChild(h),g.cookie=b}}function e(a,b){var c=new XMLHttpRequest;c.open("GET",b,!0),c.onreadystatechange=function(){4===c.readyState&&200===c.status&&(f(c.responseText),localStorage[a+"_content"]=c.responseText,localStorage[a+"_file"]=b)},c.send()}function f(a){var b=g.createElement("style");b.setAttribute("type","text/css"),g.getElementsByTagName("head")[0].appendChild(b),b.styleSheet?b.styleSheet.cssText=a:b.innerHTML=a}var g=a.document;a.loadCSS=function(a,b,c){var d,e=g.createElement("link");if(b)d=b;else{var f;f=g.querySelectorAll?g.querySelectorAll("style,link[rel=stylesheet],script"):(g.body||g.getElementsByTagName("head")[0]).childNodes,d=f[f.length-1]}var h=g.styleSheets;e.rel="stylesheet",e.href=a,e.media="only x",d.parentNode.insertBefore(e,b?d:d.nextSibling);var i=function(a){for(var b=e.href,c=h.length;c--;)if(h[c].href===b)return a();setTimeout(function(){i(a)})};return e.onloadcssdefined=i,i(function(){e.media=c||"all"}),e},a.loadLocalStorageCSS=function(e,f){c(e,f)||g.cookie.indexOf(e)>-1?d(e,f):b(a,"load",function(){d(e,f)})}}(this);</script>
 
-<!-- <link rel="stylesheet" href="css/fonts.css"> -->
+ <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/header.css">
-    <!-- Load CSS Start -->
-    <script>loadCSS( "css/main.css?ver=1.0.0", false, "all" );</script>
-    <!-- Load CSS End -->
-
-    <!-- Load CSS Compiled without JS -->
-    <noscript>
-        <link rel="stylesheet" href="css/main.css">
-    </noscript>
-
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body data-img="img/land.jpg">
 <div class="bar-long"></div>
@@ -69,27 +32,7 @@
 
 <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
 
-    <!-- Hidden DB Fields -->
-    <input type="hidden" name="registrationType" value="default_registration">
-    <input type="hidden" name="orderType" value="Zayavka">
-    <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
-    <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
-    <input type="hidden" name="utm_source" value="<?php echo $data['utm_source']; ?>">
-    <input type="hidden" name="utm_campaign" value="<?php echo $data['utm_campaign']; ?>">
-    <input type="hidden" name="utm_medium" value="<?php echo $data['utm_medium']; ?>">
-    <input type="hidden" name="utm_term" value="<?php echo $data['utm_term']; ?>">
-    <input type="hidden" name="utm_content" value="<?php echo $data['utm_content']; ?>">
-    <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
-    <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
-    <input type="hidden" name="city" value="">
-    <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
-    <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
-    <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
-    <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
-    <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
 
-    <!-- END Hidden DB Fields -->
 
     <!-- Hidden Required Fields -->
     <input type="hidden" name="project_name" value="CompanyName">
@@ -151,29 +94,6 @@
             </div>
             <div>
                 <form  method="POST" class="form-inline db-form" action="javascript:void(null);">
-                    <!-- Hidden DB Fields -->
-
-                    <input type="hidden" name="registrationType" value="default_registration">
-                    <input type="hidden" name="orderType" value="Zayavka">
-                    <input type="hidden" name="page_url" value="<?php echo $data['page_url']; ?>">
-                    <input type="hidden" name="user_agent" value="<?php echo $user_agent; ?>">
-                    <input type="hidden" name="utm_source" value="<?php echo $data['utm_source']; ?>">
-                    <input type="hidden" name="utm_campaign" value="<?php echo $data['utm_campaign']; ?>">
-                    <input type="hidden" name="utm_medium" value="<?php echo $data['utm_medium']; ?>">
-                    <input type="hidden" name="utm_term" value="<?php echo $data['utm_term']; ?>">
-                    <input type="hidden" name="utm_content" value="<?php echo $data['utm_content']; ?>">
-                    <input type="hidden" name="ref" value="<?php echo $data['ref']; ?>">
-                    <input type="hidden" name="ip_address" value="<?php echo $data['ip_address']; ?>">
-                    <input type="hidden" name="city" value="">
-                    <input type="hidden" name="client_id" value="<?php echo $data['client_id']; ?>">
-                    <input type="hidden" name="utmcsr" value="<?php echo $data['utmcsr']; ?>">
-                    <input type="hidden" name="utmccn" value="<?php echo $data['utmccn']; ?>">
-                    <input type="hidden" name="utmcmd" value="<?php echo $data['utmcmd']; ?>">
-                    <input type="hidden" name="click_id" value="<?php echo $data['click_id']; ?>">
-                    <input type="hidden" name="affiliate_id" value="<?php echo $data['affiliate_id']; ?>">
-
-                    <!-- END Hidden DB Fields -->
-
                     <!-- Hidden Required Fields -->
                     <input type="hidden" name="project_name" value="CompanyName">
                     <input type="hidden" name="admin_email" value="alien_202@mail.ru">
