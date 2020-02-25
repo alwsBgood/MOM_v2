@@ -1,8 +1,8 @@
 body {
   position: relative;
-  font: 18px/24px "", sans-serif;
-  color: #000;
-  background-color: #fff; }
+  font: 16px/22px "Gilroy-Light", sans-serif;
+  color: #77787a;
+  background-color: #f0f0f8; }
 
 body.unscroll {
   overflow: hidden; }
@@ -24,11 +24,11 @@ body.unscroll {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 0px;
-  background: #1988cc;
+  background: #015ffd;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: #1988cc; }
+  background: #015ffd; }
 
 /* BUTTON scrollUP SYLES*/
 #scrollup {
@@ -50,7 +50,7 @@ body.unscroll {
     transition: all 0.5s; }
 
 #scrollup:hover svg {
-  fill: #1988cc; }
+  fill: #015ffd; }
 
 .hidden {
   height: 0;
@@ -63,18 +63,58 @@ body.unscroll {
   position: fixed;
   top: 0;
   left: 0;
-  background: #1988cc; }
+  background: #015ffd; }
 
 .btn {
-  width: 300px;
-  height: 60px;
-  background-color: #1988cc;
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
   color: #000;
-  font: 20px "", sans-serif;
-  text-transform: uppercase; }
+  font: 16px "Gilroy-ExtraBold", sans-serif;
+  font-weight: 700;
+  border: 2px solid #150f2d; }
 
 .btn:hover {
-  background-color: #ffec3d; }
+  color: #fff;
+  background-color: #015ffd;
+  border-color: #015ffd; }
 
 .btn:active {
-  background-color: #edcc00; }
+  background-color: #0350d2; }
+
+.link:hover {
+  color: #015ffd; }
+
+.text--bold {
+  color: #150f2d;
+  font-family: Arial, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px; }
+
+h1 {
+  font-size: 110px;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-weight: 700;
+  line-height: 120px;
+  color: #000; }
+
+h2 {
+  font-size: 64px;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-weight: 700;
+  line-height: 68px;
+  color: #000; }
+
+h3 {
+  font-size: 34px;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-weight: 700;
+  line-height: 38px;
+  color: #000; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+  .flex--space-between {
+    justify-content: space-between; }
